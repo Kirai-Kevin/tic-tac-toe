@@ -3,7 +3,7 @@
 // });
 
 document.getElementById('signInBtn').addEventListener('click', function() {
-    window.location.href = '/signIn.html';
+    window.location.href = './game/signin/signIn.html';
 });
 
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         localStorage.setItem("user", JSON.stringify(user));
 
-        window.location.href = "./index.html";
+        window.location.href = "./game/index.html";
     });
 });
 
